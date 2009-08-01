@@ -5,7 +5,9 @@
 To use the `GeoModel` class, simply declare a new model class inheriting from the `geo.GeoModel` class like so:
 
 {{{
-class MyEntity(geo.GeoModel):
+from geo.geomodel import GeoModel
+
+class MyEntity(GeoModel):
   foo = db.StringProperty()
   bar = db.IntegerProperty()
 }}}
