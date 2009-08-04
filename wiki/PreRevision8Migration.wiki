@@ -1,4 +1,5 @@
 #summary Pre-Revision 8 >> Revision 8 GeoModel entity migration.
+#labels Featured
 
 = Introduction =
 
